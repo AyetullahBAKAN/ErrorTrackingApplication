@@ -1,0 +1,86 @@
+﻿@model List<Core.DTOs.ErrorCardDto>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Card List</title>
+
+    <style>
+        .state-approved {
+            color: #28a745 !important;
+            font-weight: bold;
+        }
+
+        .state-pending {
+            color: #ffc107 !important;
+            font-weight: bold;
+            font-weight: bold;
+        }
+
+        .state-rejected {
+            color: #dc3545 !important;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Error Card List</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Created Date</th>
+                <th>Finish Date</th>
+                <th>Montage Number</th>
+                <th>Customer Name</th>
+                <th>State</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var errorCard in Model)
+            {
+                <tr>
+                    <td>@(errorCard.User?.UserName ?? "-")</td>
+                    <td>@errorCard.CreateDate</td>
+                    <td>@errorCard.DateFinish</td>
+                    <td>@(errorCard.Pattern?.MontageLetter?.MontageNumber ?? "-")</td>
+                    <td>@(errorCard.Pattern?.Customer?.CustomerName ?? "-")</td>
+                    <td class="@(errorCard.States?.StateName == "Onaylandı" ? "state-approved" :
+                                   errorCard.States?.StateName == "Beklemede" ? "state-pending" :
+                                   errorCard.States?.StateName == "Reddedildi" ? "state-rejected" : "")">
+                        @(errorCard.States?.StateName ?? "")
+                    </td>
+                    <td>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                İşlemler
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" asp-controller="ErrorCard" asp-action="Edit" asp-route-id="@errorCard.Id">
+                                        <i class="bi bi-pencil-fill"></i> Düzenle
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-controller="ErrorCard" asp-action="ShowCard" asp-route-id="@errorCard.Id">
+                                        <i class="bi bi-eye-fill"></i> Görüntüle
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-controller="ErrorCard" asp-action="DeleteCard" asp-route-id="@errorCard.Id">
+                                        <i class="bi bi-calendar-x-fill"></i> Sil
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

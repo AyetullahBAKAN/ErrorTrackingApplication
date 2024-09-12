@@ -1,0 +1,18 @@
+﻿@model Core.DTOs.ErrorClosingReasonDto
+
+<button class="btn btn-outline-secondary" onclick="window.history.go(-1);">
+    <i class="bi bi-arrow-left"></i> Geri
+</button>
+
+<form asp-action="Delete" method="post" asp-route-id=@Model.Id asp-controller="ErrorClosingReason">
+    <div class="form-group">
+        <label asp-for="Reason" class="control-label"></label>
+        <input asp-for="Reason" class="form-control" readonly />
+        <span asp-validation-for="Reason" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary" onclick="return confirm('Silmek istediğinize emin misiniz?')">Delete</button>
+
+</form>
+
+

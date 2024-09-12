@@ -1,0 +1,18 @@
+﻿
+
+
+@model Core.DTOs.MediaDto
+
+<h2>Create </h2>
+
+<form asp-action="Create" method="post" asp-controller="Media">
+    <div class="form-group">
+        <label asp-for="ImagePath" class="control-label"></label>
+        <input asp-for="ImagePath" class="form-control" />
+        <span asp-validation-for="ImagePath" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+

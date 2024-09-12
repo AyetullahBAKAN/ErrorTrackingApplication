@@ -1,0 +1,57 @@
+﻿@model List<Core.DTOs.RoleDto>
+
+<h2>Role List</h2>
+
+<button class="btn btn-outline-secondary" onclick="window.history.go(-1);">
+    <i class="bi bi-arrow-left"></i> Geri
+</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Role</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var role in Model)
+        {
+            <tr>
+                <td>@role.Name</td>
+                <td>@role.CreateDate</td>
+                <td>@role.IsActive</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="Role" asp-action="Edit" asp-route-id="@role.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Role" asp-action="ShowRole" asp-route-id="@role.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Role" asp-action="DeleteRole" asp-route-id="@role.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="Role" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+
+    </tbody>
+</table>
+

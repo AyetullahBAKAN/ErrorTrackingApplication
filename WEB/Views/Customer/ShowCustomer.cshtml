@@ -1,0 +1,14 @@
+﻿@model Core.DTOs.CustomerDto
+
+<button class="btn btn-outline-secondary" onclick="window.history.go(-1);">
+    <i class="bi bi-arrow-left"></i> Geri
+</button>
+
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <div class="form-group">
+        <label asp-for="CustomerName" class="control-label"></label>
+        <input asp-for="CustomerName" class="form-control" readonly />
+        <span asp-validation-for="CustomerName" class="text-danger"></span>
+    </div>
+
+</form>

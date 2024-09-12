@@ -1,0 +1,52 @@
+﻿@model List<Core.DTOs.OperationDto>
+
+<h2>Operation List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>OperationNo</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var operation in Model)
+        {
+            <tr>
+                <td>@(operation.OperationNo)</td>
+                <td>@(operation.CreateDate)</td>
+                <td>@(operation.IsActive)</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="Operation" asp-action="Edit" asp-route-id="@operation.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Operation" asp-action="ShowOperation" asp-route-id="@operation.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Operation" asp-action="DeleteOperation" asp-route-id="@operation.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="Operation" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+    </tbody>
+</table>

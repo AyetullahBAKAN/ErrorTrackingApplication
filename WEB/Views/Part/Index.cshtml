@@ -1,0 +1,53 @@
+﻿@model List<Core.DTOs.PartDto>
+
+<h2>Part List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>PartNo</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var part in Model)
+        {
+            <tr>
+                <td>@(part.PartNo)</td>
+                <td>@(part.CreateDate)</td>
+                <td>@(part.IsActive)</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="Part" asp-action="Edit" asp-route-id="@part.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Part" asp-action="ShowPart" asp-route-id="@part.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Part" asp-action="DeletePart" asp-route-id="@part.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="Part" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+
+    </tbody>
+</table>

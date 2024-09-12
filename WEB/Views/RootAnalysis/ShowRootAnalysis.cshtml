@@ -1,0 +1,40 @@
+﻿@model Core.DTOs.RootAnalysisDto
+
+<button class="btn btn-outline-secondary" onclick="window.history.go(-1);">
+    <i class="bi bi-arrow-left"></i> Geri
+</button>
+
+<form asp-action="Delete" method="post" asp-route-id=@Model.Id asp-controller="RootAnalysis">
+    <div class="form-group">
+        <label asp-for="WhyOne" class="control-label"></label>
+        <input asp-for="WhyOne" class="form-control" readonly />
+        <span asp-validation-for="WhyOne" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="WhyTwo" class="control-label"></label>
+        <input asp-for="WhyTwo" class="form-control" readonly />
+        <span asp-validation-for="WhyTwo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="WhyThree" class="control-label"></label>
+        <input asp-for="WhyThree" class="form-control" readonly />
+        <span asp-validation-for="WhyThree" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="WhyRoot" class="control-label"></label>
+        <input asp-for="WhyRoot" class="form-control" readonly />
+        <span asp-validation-for="WhyRoot" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Result" class="control-label"></label>
+        <input asp-for="Result" class="form-control" readonly />
+        <span asp-validation-for="Result" class="text-danger"></span>
+    </div>
+
+</form>
+
+

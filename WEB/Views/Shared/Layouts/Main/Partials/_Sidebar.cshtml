@@ -1,0 +1,156 @@
+﻿
+
+<nav id="sidebar" class="sidebar js-sidebar">
+    <div class="sidebar-content js-simplebar">
+        <a class="sidebar-brand" asp-controller="Home" asp-action="Index">
+            <span class="align-middle">Kayıp Takip App</span>
+        </a>
+
+        <ul class="sidebar-nav">
+            <li class="sidebar-header">
+                Pages
+            </li>
+
+            <li class="sidebar-item active">
+                <a class="sidebar-link" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="align-middle" data-feather="home"></i>	Ana Sayfa
+                </a>
+            </li>
+
+            <li class="sidebar-item">
+
+                <a class="sidebar-link" asp-area="" asp-controller="User" asp-action="Index">
+                    <i class="align-middle" data-feather="users"></i>	Kullanıcılar
+                </a>
+
+            </li>
+
+
+            <li class="sidebar-header">
+                İşlemler
+            </li>
+
+            <li class="sidebar-item">
+                <a class="sidebar-link" asp-area="" asp-controller="ErrorCard" asp-action="Index">
+                    <i class="align-middle" data-feather="hash"></i>	Hata Kartı
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a class="sidebar-link" asp-area="" asp-controller="ErrorType" asp-action="Index">
+                    <i class="align-middle" data-feather="info"></i>	Hata Türü
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a class="sidebar-link" asp-area="" asp-controller="Pattern" asp-action="Index">
+                    <i class="align-middle" data-feather="activity"></i>	Kalıp Bilgi
+                </a>
+            </li>
+
+
+            <li class="sidebar-header">
+                Detaylar
+            </li>
+
+            <li class="sidebar-item">
+                <a class="sidebar-link" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="align-middle" data-feather="chevrons-down"></i>
+                    Hata Kartı Detay
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="ErrorDefine" asp-action="Index">
+                            <i class="align-middle"></i>	Hatanın Açıklaması
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="ErrorClass" asp-action="Index">
+                            <i class="align-middle"></i>	Hatanın Sınıfı
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="RootAnalysis" asp-action="Index">
+                            <i class="align-middle"></i>	Kök Neden Analizi
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="SolutionAndStandardizition" asp-action="Index">
+                            <i class="align-middle"></i>Çözüm ve	Standartlaştırma
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+
+
+            <li class="sidebar-item">
+                <a class="sidebar-link" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="align-middle" data-feather="pocket"></i>
+                    Hata Türü Detay
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="ErrorMainTitle" asp-action="Index">
+                            <i class="align-middle"></i>	Hatanın Ana Başlığı
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="ErrorSubGroup" asp-action="Index">
+                            <i class="align-middle"></i>	Hatanın Alt Başlığı
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="ErrorDetailGroup" asp-action="Index">
+                            <i class="align-middle"></i>	Hatanın Detay Başlığı
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="sidebar-item">
+                <a class="sidebar-link" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="align-middle" data-feather="corner-left-down"></i>
+                    Kalıp Detay
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="MontageLetter" asp-action="Index">
+                            <i class="align-middle"></i>	Montaj No
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="Customer" asp-action="Index">
+                            <i class="align-middle"></i>	Firmalar
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="Project" asp-action="Index">
+                            <i class="align-middle"></i>	Projeler
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="Part" asp-action="Index">
+                            <i class="align-middle"></i>	Parça No
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " asp-area="" asp-controller="Operation" asp-action="Index">
+                            <i class="align-middle"></i>	Operasyon No
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="sidebar-item">
+                <a class="sidebar-link" asp-area="" asp-controller="Unit" asp-action="Index">
+                    <i class="align-middle" data-feather="chevron-up"></i>	Birimler
+                </a>
+            </li>
+        </ul>
+
+
+    </div>
+</nav>
+
+

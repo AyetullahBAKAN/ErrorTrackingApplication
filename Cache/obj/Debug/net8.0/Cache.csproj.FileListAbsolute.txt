@@ -1,0 +1,13 @@
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\bin\Debug\net8.0\Cache.deps.json
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\bin\Debug\net8.0\Cache.dll
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\bin\Debug\net8.0\Cache.pdb
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\obj\Debug\net8.0\Cache.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\obj\Debug\net8.0\Cache.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\obj\Debug\net8.0\Cache.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\obj\Debug\net8.0\Cache.AssemblyInfo.cs
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\obj\Debug\net8.0\Cache.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\obj\Debug\net8.0\Cache.sourcelink.json
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\obj\Debug\net8.0\Cache.dll
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\obj\Debug\net8.0\refint\Cache.dll
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\obj\Debug\net8.0\Cache.pdb
+C:\Users\pc\Desktop\KayipTakipUygulama\Cache\obj\Debug\net8.0\ref\Cache.dll

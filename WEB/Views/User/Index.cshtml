@@ -1,0 +1,88 @@
+﻿@model List<Core.DTOs.UserDto>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+
+    <style>
+        .status-waiting {
+            color: #ffc107 !important;
+            font-weight: bold;
+        }
+
+        .status-confirmed {
+            color: #28a745 !important;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>User List</h2>
+    <a class="text-dark btn btn-outline-warning mt-3 float" asp-area="" asp-controller="Role" asp-action="Index">
+        <i class="align-middle">Rolleri Görüntüle</i>
+    </a>
+    <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="User" asp-action="Create">
+        <i class="bi bi-plus-circle-fill float-end"> Add</i>
+    </a>
+    <br />
+    <br />
+    <br />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name/Surname</th>
+                <th>Email</th>
+                <th>UserName</th>
+                <th>CreatedDate</th>
+                <th>IsActive</th>
+                <th>Role</th>
+                <th>UserVerifyState</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Name @user.SurName</td>
+                    <td>@user.Email</td>
+                    <td>@user.UserName</td>
+                    <td>@user.CreateDate</td>
+                    <td>@user.IsActive</td>
+                    <td>@string.Join(" , ", user.UserRoles.Select(x => x.Role.Name).ToList())</td>
+                    <td class="@(user.UserVerifyState == "Beklemede" ? "status-waiting" : user.UserVerifyState == "Onaylandı" ? "status-confirmed" : "")">
+                        @user.UserVerifyState
+                    </td>
+                    <td>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                İşlemler
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" asp-controller="User" asp-action="Edit" asp-route-id="@user.Id">
+                                        <i class="bi bi-pencil-fill"></i> Düzenle
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-controller="User" asp-action="ShowUser" asp-route-id="@user.Id">
+                                        <i class="bi bi-eye-fill"></i> Görüntüle
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-controller="User" asp-action="DeleteUser" asp-route-id="@user.Id">
+                                        <i class="bi bi-calendar-x-fill"></i> Sil
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

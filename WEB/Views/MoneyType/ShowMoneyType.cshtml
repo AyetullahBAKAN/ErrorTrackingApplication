@@ -1,0 +1,17 @@
+﻿@model Core.DTOs.MoneyTypeDto
+
+<h2>Edit</h2>
+
+<button class="btn btn-outline-secondary" onclick="window.history.go(-1);">
+    <i class="bi bi-arrow-left"></i> Geri
+</button>
+
+<form asp-action="ShowMoneyType" method="post" asp-controller="MoneyType">
+    <div class="form-group">
+        <label asp-for="TypeOfMoney" class="control-label"></label>
+        <input asp-for="TypeOfMoney" class="form-control" readonly />
+        <span asp-validation-for="TypeOfMoney" class="text-danger"></span>
+    </div>
+</form>
+
+

@@ -1,0 +1,53 @@
+﻿@model List<Core.DTOs.FieldDto>
+
+<h2>Field List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>FieldName</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var field in Model)
+        {
+            <tr>
+                <td>@(field.FieldName)</td>
+                <td>@(field.CreateDate)</td>
+                <td>@(field.IsActive)</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="Field" asp-action="Edit" asp-route-id="@field.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Field" asp-action="ShowField" asp-route-id="@field.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Field" asp-action="DeleteField" asp-route-id="@field.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="Field" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+    </tbody>
+</table>

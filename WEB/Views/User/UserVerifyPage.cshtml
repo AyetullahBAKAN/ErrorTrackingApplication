@@ -1,0 +1,173 @@
+﻿@*@{
+    Layout = "";
+}
+@model Core.Models.User
+
+<h2>Şifre Sıfırlama</h2>
+
+<form asp-action="UserVerifyPage" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" name="token" value="@ViewBag.Token" />
+    <div class="form-group">
+        <label for="NewPassword">Yeni Şifre</label>
+        <input type="password" class="form-control" id="NewPassword" name="newPassword" required />
+    </div>
+    <div class="form-group">
+        <label for="ConfirmPassword">Şifreyi Onayla</label>
+        <input type="password" class="form-control" id="ConfirmPassword" name="confirmPassword" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Şifreyi Sıfırla</button>
+</form>*@
+@{
+    Layout = "";
+}
+@model Core.Models.User
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şifre Sıfırlama</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(200, 200, 200, 0.8));
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .form-group label {
+            color: #333;
+        }
+
+        .form-control {
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            border: 1px solid #ccc;
+        }
+
+            .form-control::placeholder {
+                color: #999;
+            }
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+            .btn:hover {
+                background-color: #0056b3;
+            }
+
+        .header {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            text-align: center;
+            color: #333;
+        }
+
+            .header img {
+                max-width: 200px; 
+                height: auto;
+            }
+
+        .email {
+            text-align: center;
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .panel-title {
+            text-align: center;
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="/Image/logo-gestamp.png" alt="Logo"> 
+    </div>
+    @{
+
+      
+        DateTime now = DateTime.Now;
+
+        TimeSpan timeDifference = now - Model.CreateDate;
+
+        TimeSpan fifteenMinutes = TimeSpan.FromMinutes(10);
+
+    }
+    @*   *@
+    @if (timeDifference > fifteenMinutes)
+    {
+        <h3>Bu bağlantının kullanım süresi doldu. Yöneticinizle iletişime geçin</h3>
+    }
+    else if (Model.PasswordHash == null)
+    {
+
+        <div class="container">
+            <div class="panel-title">Şifre Sıfırlama Paneli</div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="email">@Model.Email</div>
+                    <div class="text-center mt-4">
+                    </div>
+                    <form asp-action="UserVerifyPage" method="post">
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" name="token" value="@ViewBag.Token" />
+                        <div class="form-group">
+                            <label for="NewPassword">Yeni Şifre</label>
+                            <input type="password" class="form-control" id="NewPassword" name="newPassword" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="ConfirmPassword">Şifreyi Onayla</label>
+                            <input type="password" class="form-control" id="ConfirmPassword" name="confirmPassword" required />
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <h2>Şifrenizi Zaten Belirlediniz</h2>
+    }
+
+</body>
+</html>
+
+

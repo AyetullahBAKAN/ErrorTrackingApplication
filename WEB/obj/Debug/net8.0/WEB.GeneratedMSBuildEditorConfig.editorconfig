@@ -1,0 +1,719 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WEB
+build_property.RootNamespace = WEB
+build_property.ProjectDir = C:\Users\pc\Desktop\KayipTakipUygulama\WEB\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\pc\Desktop\KayipTakipUygulama\WEB
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX0F1dGhMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Cost/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Cost/DeleteCost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zdFxEZWxldGVDb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Cost/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Cost/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Cost/ViewCost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zdFxWaWV3Q29zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Customer/DeleteCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Customer/ShowCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcU2hvd0N1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorCard/DeleteCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDYXJkXERlbGV0ZUNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorCard/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDYXJkXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorCard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorCard/ShowCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDYXJkXFNob3dDYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorClass/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDbGFzc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorClass/DeleteErrorClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDbGFzc1xEZWxldGVFcnJvckNsYXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorClass/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDbGFzc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorClass/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDbGFzc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorClass/ShowErrorClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDbGFzc1xTaG93RXJyb3JDbGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorClosingReason/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDbG9zaW5nUmVhc29uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorClosingReason/DeleteReason.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDbG9zaW5nUmVhc29uXERlbGV0ZVJlYXNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorClosingReason/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDbG9zaW5nUmVhc29uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorClosingReason/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDbG9zaW5nUmVhc29uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorClosingReason/ShowReason.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JDbG9zaW5nUmVhc29uXFNob3dSZWFzb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDefine/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZWZpbmVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDefine/DeleteErrorDefine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZWZpbmVcRGVsZXRlRXJyb3JEZWZpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDefine/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZWZpbmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDefine/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZWZpbmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDefine/ShowErrorDefine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZWZpbmVcU2hvd0Vycm9yRGVmaW5lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDetailGroup/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZXRhaWxHcm91cFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDetailGroup/DeleteErrorDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZXRhaWxHcm91cFxEZWxldGVFcnJvckRldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDetailGroup/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZXRhaWxHcm91cFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDetailGroup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZXRhaWxHcm91cFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDetailGroup/ShowErrorDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZXRhaWxHcm91cFxTaG93RXJyb3JEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDetection/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZXRlY3Rpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDetection/DeleteErrorDetection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZXRlY3Rpb25cRGVsZXRlRXJyb3JEZXRlY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDetection/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZXRlY3Rpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDetection/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZXRlY3Rpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorDetection/ShowErrorDetection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JEZXRlY3Rpb25cU2hvd0Vycm9yRGV0ZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorMainTitle/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JNYWluVGl0bGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorMainTitle/DeleteErrorMainTitle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JNYWluVGl0bGVcRGVsZXRlRXJyb3JNYWluVGl0bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorMainTitle/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JNYWluVGl0bGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorMainTitle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JNYWluVGl0bGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorMainTitle/ShowErrorMainTitle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JNYWluVGl0bGVcU2hvd0Vycm9yTWFpblRpdGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorSubGroup/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JTdWJHcm91cFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorSubGroup/DeleteErrorSubGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JTdWJHcm91cFxEZWxldGVFcnJvclN1Ykdyb3VwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorSubGroup/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JTdWJHcm91cFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorSubGroup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JTdWJHcm91cFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorSubGroup/ShowErrorSubGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JTdWJHcm91cFxTaG93RXJyb3JTdWJHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JUeXBlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorType/DeleteErrorType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JUeXBlXERlbGV0ZUVycm9yVHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JUeXBlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JUeXBlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/ErrorType/ShowErrorType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JUeXBlXFNob3dFcnJvclR5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Field/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmllbGRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Field/DeleteField.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmllbGRcRGVsZXRlRmllbGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Field/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmllbGRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Field/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmllbGRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Field/ShowField.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmllbGRcU2hvd0ZpZWxkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Media/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Media/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Media/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Media/ShowMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWFcU2hvd01lZGlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/MoneyType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZXlUeXBlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/MoneyType/DeleteMoneyType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZXlUeXBlXERlbGV0ZU1vbmV5VHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/MoneyType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZXlUeXBlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/MoneyType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZXlUeXBlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/MoneyType/ShowMoneyType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uZXlUeXBlXFNob3dNb25leVR5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/MontageLetter/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9udGFnZUxldHRlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/MontageLetter/DeleteMontageLetter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9udGFnZUxldHRlclxEZWxldGVNb250YWdlTGV0dGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/MontageLetter/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9udGFnZUxldHRlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/MontageLetter/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9udGFnZUxldHRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/MontageLetter/ShowMontageLetter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9udGFnZUxldHRlclxTaG93TW9udGFnZUxldHRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Operation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Operation/DeleteOperation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uXERlbGV0ZU9wZXJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Operation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Operation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Operation/ShowOperation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uXFNob3dPcGVyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Part/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Part/DeletePart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydFxEZWxldGVQYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Part/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Part/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Part/ShowPart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydFxTaG93UGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Pattern/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0dGVyblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Pattern/DeletePattern.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0dGVyblxEZWxldGVQYXR0ZXJuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Pattern/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0dGVyblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Pattern/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0dGVyblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Pattern/ShowPattern.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0dGVyblxTaG93UGF0dGVybi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Project/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Project/DeleteProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZWxldGVQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Project/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Project/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Project/ShowProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxTaG93UHJvamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Role/AssignRoleToUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxBc3NpZ25Sb2xlVG9Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Role/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxEZWxldGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Role/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Role/ShowRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxTaG93Um9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/RootAnalysis/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vdEFuYWx5c2lzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/RootAnalysis/DeleteRootAnalysis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vdEFuYWx5c2lzXERlbGV0ZVJvb3RBbmFseXNpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/RootAnalysis/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vdEFuYWx5c2lzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/RootAnalysis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vdEFuYWx5c2lzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/RootAnalysis/ShowRootAnalysis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vdEFuYWx5c2lzXFNob3dSb290QW5hbHlzaXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Shared/Layouts/Login/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dHNcTG9naW5cX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Shared/Layouts/Main/Partials/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dHNcTWFpblxQYXJ0aWFsc1xfRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Shared/Layouts/Main/Partials/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dHNcTWFpblxQYXJ0aWFsc1xfSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Shared/Layouts/Main/Partials/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dHNcTWFpblxQYXJ0aWFsc1xfU2lkZWJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Shared/Layouts/Main/Partials/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dHNcTWFpblxQYXJ0aWFsc1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/SolutionAndStandardizition/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sdXRpb25BbmRTdGFuZGFyZGl6aXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/SolutionAndStandardizition/DeleteSolutionAndStandardizition.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sdXRpb25BbmRTdGFuZGFyZGl6aXRpb25cRGVsZXRlU29sdXRpb25BbmRTdGFuZGFyZGl6aXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/SolutionAndStandardizition/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sdXRpb25BbmRTdGFuZGFyZGl6aXRpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/SolutionAndStandardizition/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sdXRpb25BbmRTdGFuZGFyZGl6aXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/SolutionAndStandardizition/ShowSolutionAndStandardizition.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sdXRpb25BbmRTdGFuZGFyZGl6aXRpb25cU2hvd1NvbHV0aW9uQW5kU3RhbmRhcmRpeml0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/State/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Unit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Unit/DeleteUnit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxEZWxldGVVbml0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Unit/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Unit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Unit/ShowUnit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pdFxTaG93VW5pdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/User/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/User/ShowUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaG93VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/User/UserVerifyPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyVmVyaWZ5UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Desktop/KayipTakipUygulama/WEB/Views/Shared/Layouts/Main/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dHNcTWFpblxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-ylppratrym

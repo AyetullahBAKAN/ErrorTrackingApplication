@@ -1,0 +1,19 @@
+﻿@model Core.DTOs.OperationDto
+
+<h2>Create Part</h2>
+
+<button class="btn btn-outline-secondary" onclick="window.history.go(-1);">
+    <i class="bi bi-arrow-left"></i> Geri
+</button>
+
+<form asp-action="Create" method="post" asp-controller="Operation">
+    <div class="form-group">
+        <label asp-for="OperationNo" class="control-label"></label>
+        <input asp-for="OperationNo" class="form-control" />
+        <span asp-validation-for="OperationNo" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+

@@ -1,0 +1,31 @@
+﻿@model List<Core.DTOs.MediaDto>
+
+<h2>Media </h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>URL</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Update</th>
+            <th>View</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var mediaList in Model)
+        {
+            <tr>
+                <td>@(mediaList.ImagePath)</td>
+                <td>@(mediaList.CreateDate)</td>
+                <td>@(mediaList.IsActive)</td>
+                <td><a class="text-dark btn btn-outline-success" asp-controller="Media" asp-action="Edit" asp-route-id="@mediaList.Id">Edit</a></td>
+                <td><a class="text-dark btn btn-outline-danger" asp-controller="Media" asp-action="ShowMedia" asp-route-id="@mediaList.Id">View</a></td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="Media" asp-action="Create">Add New</a>
+
+    </tbody>
+</table>

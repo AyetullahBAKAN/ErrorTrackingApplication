@@ -1,0 +1,61 @@
+﻿@model List<Core.DTOs.RootAnalysisDto>
+
+<h2>Root Analysis List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>WhyOne</th>
+            <th>WhyTwo</th>
+            <th>WhyTree</th>
+            <th>WhyRoot</th>
+            <th>Result</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var root in Model)
+        {
+            <tr>
+                <td>@(root.WhyOne)</td>
+                <td>@(root.WhyTwo)</td>
+                <td>@(root.WhyThree)</td>
+                <td>@(root.WhyRoot)</td>
+                <td>@(root.Result)</td>
+                <td>@(root.CreateDate)</td>
+                <td>@(root.IsActive)</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="RootAnalysis" asp-action="Edit" asp-route-id="@root.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="RootAnalysis" asp-action="ShowRootAnalysis" asp-route-id="@root.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="RootAnalysis" asp-action="DeleteRootAnalysis" asp-route-id="@root.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="RootAnalysis" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+
+    </tbody>
+</table>

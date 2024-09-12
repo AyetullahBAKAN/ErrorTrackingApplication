@@ -1,0 +1,56 @@
+﻿@model List<Core.DTOs.PatternDto>
+
+<h2> Pattern List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>CustomerName</th>
+            <th>ProjectName</th>
+            <th>MontageNumber</th>
+            <th>PartNo</th>
+            <th>OperationNo</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pattern in Model)
+        {
+            <tr>
+                <td>@(pattern.Customer?.CustomerName ?? "-")</td>
+                <td>@(pattern.Project?.ProjectName ?? "-")</td>
+                <td>@(pattern.MontageLetter?.MontageNumber ??"-")</td>
+                <td>@(pattern.Part?.PartNo ?? "-")</td>
+                <td>@(pattern.Operation?.OperationNo ?? "-")</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="Pattern" asp-action="Edit" asp-route-id="@pattern.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Pattern" asp-action="ShowPattern" asp-route-id="@pattern.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Pattern" asp-action="DeletePattern" asp-route-id="@pattern.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="Pattern" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+
+    </tbody>
+</table>

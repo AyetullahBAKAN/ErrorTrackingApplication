@@ -1,0 +1,54 @@
+﻿@model List<Core.DTOs.ErrorClosingReasonDto>
+
+<h2>Error Closing Reason List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Reason</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Update</th>
+            <th>Vİew</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reason in Model)
+        {
+            <tr>
+                <td>@(reason.Reason)</td>
+                <td>@(reason.CreateDate)</td>
+                <td>@(reason.IsActive)</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorClosingReason" asp-action="Edit" asp-route-id="@reason.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorClosingReason" asp-action="ShowReason" asp-route-id="@reason.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorClosingReason" asp-action="DeleteReason" asp-route-id="@reason.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="ErrorClosingReason" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+
+    </tbody>
+</table>

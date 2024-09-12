@@ -1,0 +1,59 @@
+﻿@model List<Core.DTOs.ErrorTypeDto>
+
+<h2>Error Type List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>UserName</th>
+            <th>ErrorMainTitleName</th>
+            <th>ErrorSubGroupName</th>
+            <th>ErrorDetailGroupName</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var errorType in Model)
+        {
+            <tr>
+
+                <td>@(errorType.User?.UserName ?? "-")</td>
+                <td>@(errorType.ErrorMainTitle?.ErrorMainTitleName ?? "-")</td>
+                <td>@(errorType.ErrorSubGroup?.ErrorSubGroupName ?? "-")</td>
+                <td>@(errorType.ErrorDetailGroup?.ErrorDetailGroupName ?? "-")</td>
+                <td>@errorType.CreateDate</td>
+                <td>@errorType.IsActive</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorType" asp-action="Edit" asp-route-id="@errorType.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorType" asp-action="ShowErrorType" asp-route-id="@errorType.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorType" asp-action="DeleteErrorType" asp-route-id="@errorType.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="ErrorType" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+
+    </tbody>
+</table>

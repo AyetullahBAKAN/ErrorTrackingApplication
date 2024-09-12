@@ -1,0 +1,99 @@
+﻿@model Core.DTOs.ErrorCardDto
+
+<h2>Delete</h2>
+
+<button class="btn btn-outline-secondary" onclick="window.history.go(-1);">
+    <i class="bi bi-arrow-left"></i> Geri
+</button>
+
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post" class="row">
+    <div class="col-md-6">
+
+        <div class="form-group">
+            <label asp-for="UserId"></label>
+            <select asp-for="UserId" asp-items="ViewBag.users" disabled class="form-control" readonly></select>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="FormNumber" class="control-label"></label>
+            <input asp-for="FormNumber" class="form-control" disabled readonly />
+            <span asp-validation-for="FormNumber" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CostId"></label>
+            <select asp-for="CostId" asp-items="ViewBag.costList" disabled class="form-control" readonly></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ErrorClassId"></label>
+            <select asp-for="ErrorClassId" asp-items="ViewBag.errorClassList" disabled class="form-control" readonly></select>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="ErrorDefineId"></label>
+            <select asp-for="ErrorDefineId" asp-items="ViewBag.errorDefineList" disabled class="form-control" readonly></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ErrorDetectionLocationId"></label>
+            <select asp-for="ErrorDetectionLocationId" asp-items="ViewBag.errorDetectionList" disabled class="form-control" readonly></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="UnitId"></label>
+            <select asp-for="UnitId" asp-items="ViewBag.unitList" disabled class="form-control" readonly></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SolutionAndStandardizitionId"></label>
+            <select asp-for="SolutionAndStandardizitionId" asp-items="ViewBag.solutionList" disabled class="form-control" readonly></select>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label asp-for="StateId"></label>
+            <select asp-for="StateId" asp-items="ViewBag.stateList" disabled class="form-control" readonly></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="RootAnalysisId"></label>
+            <select asp-for="RootAnalysisId" asp-items="ViewBag.rootAnalysisList" disabled class="form-control" readonly></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Pattern.ProjectId"></label>
+            <select asp-for="Pattern.ProjectId" asp-items="ViewBag.projects" disabled class="form-control" readonly></select>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="Pattern.CustomerId"></label>
+            <select asp-for="Pattern.CustomerId" asp-items="ViewBag.customers" disabled class="form-control" disabled readonly></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Pattern.MontageLetterId"></label>
+            <select asp-for="Pattern.MontageLetterId" asp-items="ViewBag.montageLetter" disabled class="form-control" readonly></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Pattern.PartId"></label>
+            <select asp-for="Pattern.PartId" asp-items="ViewBag.partList" disabled class="form-control" readonly></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Pattern.OperationId"></label>
+            <select asp-for="Pattern.OperationId" asp-items="ViewBag.operationList" disabled class="form-control" readonly></select>
+        </div>
+        <br />
+
+        <div>
+            <button type="submit" class="btn btn-primary" onclick="return confirm('Silmek istediğinize emin misiniz?')">Delete</button>
+        </div>
+    </div>
+</form>
+
+

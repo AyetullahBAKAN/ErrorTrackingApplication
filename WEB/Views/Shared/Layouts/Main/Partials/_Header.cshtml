@@ -1,0 +1,65 @@
+﻿@* <header>
+    <ul>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        </li>
+    </ul>
+</header> 
+
+<div class="d-flex flex-wrap container-fluid align-items-stretch justify-content-between">
+    <a href="#" class="d-flex align-items-center-start mb-2 mb-lg-0 text-dark text-decoration-none">
+        <img src="Image/logo_gestamp.png" alt="Logo" width="210" height="60">
+    </a>
+
+    <div class="d-flex align-items-center-end">
+        <div class="dropdown text-end">
+            <a href="#" class="d-flex align-items-center m-3 text-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="Image\profil.jpg" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                <span class="d-none d-sm-inline mx-1"> @User.Identity.Name </span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <form asp-area="Identity" asp-page="/Account/Logout" method="post" class="form-inline">
+                    <button type="submit" class="dropdown-item">Çıkış Yap</button>
+                </form>
+            </ul>
+        </div>
+    </div>
+</div>*@
+
+
+<nav class="navbar navbar-expand navbar-light navbar-bg">
+	<a class="sidebar-toggle js-sidebar-toggle">
+		<i class="hamburger align-self-center"></i>
+	</a>
+
+	<div class="navbar-collapse collapse">
+		<ul class="navbar-nav navbar-align">
+			
+			
+			<li class="nav-item dropdown">
+				<a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
+					<i class="align-middle" data-feather="settings"></i>
+				</a>
+
+				<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+					<img src="~/Image/profil.jpg" class="avatar img-fluid rounded me-1" /> <span class="text-dark"> @User.Identity.Name</span>
+				</a>
+				<div class="dropdown-menu dropdown-menu-end">
+					
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                            <button type="submit" class="dropdown-item">Çıkış  Yap</button>
+                        </form>
+                    }
+
+				</div>
+			</li>
+		</ul>
+	</div>
+</nav>

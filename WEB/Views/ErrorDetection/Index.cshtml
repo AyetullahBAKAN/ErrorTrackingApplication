@@ -1,0 +1,53 @@
+﻿@model List<Core.DTOs.ErrorDetectionLocationDto>
+
+<h2>Error Detection List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Location</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var errorDetection in Model)
+        {
+            <tr>
+                <td>@(errorDetection.ErrorLocation)</td>
+                <td>@(errorDetection.CreateDate)</td>
+                <td>@(errorDetection.IsActive)</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorDetection" asp-action="Edit" asp-route-id="@errorDetection.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorDetection" asp-action="ShowErrorDetection" asp-route-id="@errorDetection.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorDetection" asp-action="DeleteErrorDetection" asp-route-id="@errorDetection.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="ErrorDetection" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+
+    </tbody>
+</table>

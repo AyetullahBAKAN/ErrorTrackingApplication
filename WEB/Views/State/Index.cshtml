@@ -1,0 +1,25 @@
+﻿@model List<Core.DTOs.StateDto>
+
+<h2>State List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>StateName</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var stateList in Model)
+        {
+            <tr>
+                <td>@(stateList.StateName)</td>
+                <td>@(stateList.CreateDate)</td>
+                <td>@(stateList.IsActive)</td>
+            </tr>
+        }
+
+    </tbody>
+</table>

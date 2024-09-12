@@ -1,0 +1,52 @@
+﻿@model List<Core.DTOs.ErrorMainTitleDto>
+
+<h2>ErrorMainTitle List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ErrorMainTitleName</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var errorMainTitle in Model)
+        {
+            <tr>
+                <td>@(errorMainTitle.ErrorMainTitleName ?? "-")</td>
+                <td>@(errorMainTitle.CreateDate)</td>
+                <td>@(errorMainTitle.IsActive)</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorMainTitle" asp-action="Edit" asp-route-id="@errorMainTitle.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorMainTitle" asp-action="ShowErrorMainTitle" asp-route-id="@errorMainTitle.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                            <a class="dropdown-item" asp-controller="ErrorMainTitle" asp-action="DeleteErrorMainTitle" asp-route-id="@errorMainTitle.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="ErrorMainTitle" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+
+    </tbody>
+</table>

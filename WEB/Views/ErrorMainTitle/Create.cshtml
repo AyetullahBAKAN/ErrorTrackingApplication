@@ -1,0 +1,18 @@
+﻿@model Core.DTOs.ErrorMainTitleDto
+
+<h2>Create </h2>
+
+<button class="btn btn-outline-secondary" onclick="window.history.go(-1);">
+    <i class="bi bi-arrow-left"></i> Geri
+</button>
+
+<form asp-action="Create" method="post" asp-controller="ErrorMainTitle">
+    <div class="form-group">
+        <label asp-for="ErrorMainTitleName" class="control-label"></label>
+        <input asp-for="ErrorMainTitleName" class="form-control" />
+        <span asp-validation-for="ErrorMainTitleName" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+

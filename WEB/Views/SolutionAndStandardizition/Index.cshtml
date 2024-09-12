@@ -1,0 +1,60 @@
+﻿@model List<Core.DTOs.SolutionAndStandardizitionDto>
+
+<h2>Solution List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ErrorReason</th>
+            <th>SolutionShort</th>
+            <th>SolutionPerma</th>
+            <th>SolutionDetail</th>
+            <th>HowErrorClose</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var solution in Model)
+        {
+            <tr>
+                <td>@(solution.ErrorClosingReason?.Reason ?? "-")</td>
+                <td>@(solution.SolutionShort)</td>
+                <td>@(solution.SolutionPerma)</td>
+                <td>@(solution.SolutionDetail)</td>
+                <td>@(solution.HowErrorClose)</td>
+                <td>@(solution.CreateDate)</td>
+                <td>@(solution.IsActive)</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="SolutionAndStandardizition" asp-action="Edit" asp-route-id="@solution.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="SolutionAndStandardizition" asp-action="ShowSolutionAndStandardizition" asp-route-id="@solution.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="SolutionAndStandardizition" asp-action="DeleteSolutionAndStandardizition" asp-route-id="@solution.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="SolutionAndStandardizition" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+    </tbody>
+</table>

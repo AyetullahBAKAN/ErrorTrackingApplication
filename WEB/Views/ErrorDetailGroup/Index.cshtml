@@ -1,0 +1,51 @@
+﻿@model List<Core.DTOs.ErrorDetailGroupDto>
+
+<h2>ErrorDetailGroup List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ErrorDetailGroupName</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var errorDetailGroup in Model)
+        {
+            <tr>
+                <td>@(errorDetailGroup.ErrorDetailGroupName ?? "-")</td>
+                <td>@(errorDetailGroup.CreateDate)</td>
+                <td>@(errorDetailGroup.IsActive)</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorDetailGroup" asp-action="Edit" asp-route-id="@errorDetailGroup.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorDetailGroup" asp-action="ShowErrorDetail" asp-route-id="@errorDetailGroup.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="ErrorDetailGroup" asp-action="DeleteErrorDetail" asp-route-id="@errorDetailGroup.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="ErrorDetailGroup" asp-action="Create">Add New</a>
+
+    </tbody>
+</table>

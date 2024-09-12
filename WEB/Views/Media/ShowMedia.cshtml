@@ -1,0 +1,15 @@
+﻿
+@model Core.DTOs.MediaDto
+
+
+<form asp-action="Delete" method="post" asp-route-id=@Model.Id asp-controller="Media">
+    <div class="form-group">
+        <label asp-for="ImagePath" class="control-label"></label>
+        <input asp-for="ImagePath" class="form-control"  readonly/>
+        <span asp-validation-for="ImagePath" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Delete</button>
+</form>
+
+

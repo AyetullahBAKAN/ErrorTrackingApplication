@@ -1,0 +1,55 @@
+﻿@model List<Core.DTOs.CustomerDto>
+
+<h2>Customer List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Customer Name</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model)
+        {
+            <tr>
+                <td>@(customer.CustomerName)</td>
+                <td>@(customer.CreateDate)</td>
+                <td>@(customer.IsActive)</td>
+                @* <td><a class="text-dark btn btn-outline-success" asp-controller="Customer" asp-action="Edit" asp-route-id="@customer.Id">Edit</a></td>
+            <td><a class="text-dark btn btn-outline-danger" asp-controller="Customer" asp-action="ShowCustomer" asp-route-id="@customer.Id">View</a></td>
+            <td><a class="text-dark btn btn-outline-danger" asp-controller="Customer" asp-action="DeleteCustomer" asp-route-id="@customer.Id">View</a></td>
+
+            *@
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="Customer" asp-action="Edit" asp-route-id="@customer.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Customer" asp-action="ShowCustomer" asp-route-id="@customer.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Customer" asp-action="DeleteCustomer" asp-route-id="@customer.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="Customer" asp-action="Create">Add New</a>
+    </tbody>
+</table>

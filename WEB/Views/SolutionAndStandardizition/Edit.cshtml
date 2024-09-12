@@ -1,0 +1,41 @@
+﻿@model Core.DTOs.SolutionAndStandardizitionDto
+
+<h2>Edit </h2>
+
+<button class="btn btn-outline-secondary" onclick="window.history.go(-1);">
+    <i class="bi bi-arrow-left"></i> Geri
+</button>
+
+<form asp-action="Edit" method="post" asp-controller="SolutionAndStandardizition">
+
+    <div class="form-group">
+        <label asp-for="SolutionShort" class="control-label"></label>
+        <input asp-for="SolutionShort" class="form-control" readonly />
+        <span asp-validation-for="SolutionShort" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SolutionPerma" class="control-label"></label>
+        <input asp-for="SolutionPerma" class="form-control" readonly />
+        <span asp-validation-for="SolutionPerma" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SolutionDetail" class="control-label"></label>
+        <input asp-for="SolutionDetail" class="form-control" readonly />
+        <span asp-validation-for="SolutionDetail" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HowErrorClose " class="control-label"></label>
+        <input asp-for="HowErrorClose" class="form-control" readonly />
+        <span asp-validation-for="HowErrorClose" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ErrorClosingReasonId"></label>
+        <select asp-for="ErrorClosingReasonId" asp-items="ViewBag.errorClosingReasons" class="form-control" readonly></select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

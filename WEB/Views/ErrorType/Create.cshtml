@@ -1,0 +1,38 @@
+﻿@model Core.DTOs.ErrorTypeDto
+
+<h2>Create </h2>
+
+<button class="btn btn-outline-secondary" onclick="window.history.go(-1);">
+    <i class="bi bi-arrow-left"></i> Geri
+</button>
+
+<form asp-action="Create" method="post" asp-controller="ErrorType">
+
+
+    <div class="form-group">
+        <label asp-for="UserId"></label>
+        <select asp-for="UserId" asp-items="ViewBag.users" class="form-control"></select>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ErrorMainTitleId"></label>
+        <select asp-for="ErrorMainTitleId" asp-items="ViewBag.errorMainTitleList" class="form-control"></select>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ErrorSubGroupId"></label>
+        <select asp-for="ErrorSubGroupId" asp-items="ViewBag.errorSubGroup" class="form-control"></select>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ErrorDetailGroupId"></label>
+        <select asp-for="ErrorDetailGroupId" asp-items="ViewBag.errorDetailList" class="form-control"></select>
+
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

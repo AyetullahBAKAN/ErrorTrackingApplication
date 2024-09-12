@@ -1,0 +1,62 @@
+﻿@model List<Core.DTOs.CostDto>
+
+<h2>Cost List</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Time</th>
+            <th>Count</th>
+            <th>Money Type</th>
+            <th>Field Name</th>
+            <th>CreatedDate</th>
+            <th>IsActive</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cost in Model)
+        {
+            <tr>
+                <td>@(cost.Description)</td>
+                <td>@(cost.Time)</td>
+                <td>@(cost.Amount)</td>
+                <td>@(cost.MoneyType?.TypeOfMoney ?? "-")</td>
+                <td>@(cost.Field?.FieldName ?? "-")</td>
+                <td>@(cost.CreateDate)</td>
+                <td>@(cost.IsActive)</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            İşlemler
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-controller="Cost" asp-action="Edit" asp-route-id="@cost.Id">
+                                    <i class="bi bi-pencil-fill"></i> Düzenle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Cost" asp-action="ViewCost" asp-route-id="@cost.Id">
+                                    <i class="bi bi-eye-fill"></i> Görüntüle
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Cost" asp-action="DeleteCost" asp-route-id="@cost.Id">
+                                    <i class="bi bi-calendar-x-fill"></i> Sil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        }
+
+        <a class="text-dark btn btn-outline-success mt-3 float-end" asp-controller="Cost" asp-action="Create">
+            <i class="bi bi-plus-circle-fill float-end"> Add</i>
+        </a>
+
+    </tbody>
+</table>
